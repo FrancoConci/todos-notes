@@ -1,0 +1,6 @@
+[submodule "express-todo-notes"]
+	path = express-todo-notes
+	url = https://github.com/FrancoConci/express-todo-notes.git
+[submodule "api-todos-notes"]
+	path = api-todos-notes
+	url = https://github.com/FrancoConci/api-todos-notes.git
