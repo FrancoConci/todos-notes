@@ -1,0 +1,7 @@
+services:
+  server:
+    env_file: .backend.env
+    build:
+      dockerfile: './Dockerfile.backend'
+    ports:
+      - '8001:3000'
