@@ -1,5 +1,5 @@
 FROM node:alpine
-WORKDIR /backend
+WORKDIR /authserver
 COPY auth-server/package.json package.json
 RUN npm i
 COPY auth-server/src .
