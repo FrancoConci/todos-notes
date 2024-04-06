@@ -4,3 +4,6 @@
 [submodule "api-todos-notes"]
 	path = api-todos-notes
 	url = https://github.com/FrancoConci/api-todos-notes.git
+[submodule "auth-server"]
+	path = auth-server
+	url = https://github.com/FrancoConci/auth-server.git
