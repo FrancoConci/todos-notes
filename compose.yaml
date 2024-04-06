@@ -1,6 +1,13 @@
 services:
+  authserver:
+    env_file: .authserver.env
+    build:
+      dockerfile: './Dockerfile.authserver'
+    ports:
+      - '8002:3001'
   server:
     env_file: .backend.env
+    depends_on: [authserver]
     build:
       dockerfile: './Dockerfile.backend'
     ports:
